@@ -1332,6 +1332,16 @@ a.homes__item:hover .icon {
   color: var(--paper-muted);
 }
 
+@media (max-width: 1023px) {
+  .principle {
+    min-height: 0;
+  }
+
+  .principle__num {
+    margin-bottom: 28px;
+  }
+}
+
 /* Pinned and travelling sideways on wide screens (class added by script) */
 .principles.is-horizontal {
   display: flex;

@@ -824,6 +824,7 @@
 }
 
 .sign-photo img {
+  height: auto;
   border-radius: 14px;
 }
 
